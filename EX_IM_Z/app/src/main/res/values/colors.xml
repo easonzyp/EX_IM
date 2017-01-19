@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="title_color">#4d4d4d</color>
+    <color name="title_color_new">#614d4d4d</color>
+
+    <color name="color_friend_default">#8f9fa5</color>
+    <color name="default_bg">#fefefe</color>
+    <color name="gray_color">#F3F3F3</color>
+    <color name="totalTitle">#FFFFFF</color>
+    <color name="comment_weibo">#F3F3F3</color>
+    <color name="circleButtonPressed">#FF8112</color>
+    <color name="jbb_bg_color">#f1f1f1</color>
+    <color name="topTextColor">#2CA0E3</color>
+    <color name="commentListBg">#F3F3F3</color>
+    <color name="transWeiboBg">#F3F3F3</color>
+    <color name="black">#bb000000</color>
+    <color name="red">#FF0000</color>
+    <color name="mainColor">#104E8B</color>
+    <color name="weiboListPressed">#CDDDE9</color>
+    <color name="timeColor">#999999</color>
+    <color name="font">#999999</color>
+    <color name="tranFontColor">#444444</color>
+    <color name="line">#DDDDDD</color>
+    <color name="imageBroder">#C3BFC3</color>
+    <color name="itemColor">#FFFFFF</color>
+    <color name="secondColor">#EEEEEE</color>
+    <color name="buttonColor">#A7B8C4</color>
+    <color name="smallFont">#666666</color>
+    <color name="numFont">#187FC4</color>
+    <color name="titleColor">#365c7c</color>
+    <color name="siteItemBgColor">#70BEFF</color>
+    <color name="contentColor">#F6F6F6</color>
+    <color name="serachButtonFont">#365c7c</color>
+    <color name="testColor">#FF0000</color>
+    <color name="gridItem">#BBCCDD</color>
+    <color name="searchbarColor">#4a4a4a</color>
+    <color name="transparent">#00000000</color>
+    <color name="weiba_title_p">#dc4b3a</color>
+    <color name="weiba_title_n">#292929</color>
+    <color name="weiba_count">#ff8800</color>
+    <color name="weiba_txt">#999999</color>
+    <color name="weiba_no_follow">#c4c4c4</color>
+    <color name="bar">#99202020</color>
+    <color name="edit_hint">#44202020</color>
+    <color name="middlebar">#77202020</color>
+    <color name="fav_text_true">#898989</color>
+    <color name="fav_bg_true">#cfcfcf</color>
+    <color name="bg_task_complete_state_blue_txt">#149ee7</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+
+    <!--导航栏背景色-->
+    <color name="titleBarBackground">@color/white</color>
+    <color name="bg_ios">#F3F3F3</color>
+    <color name="titleBarLeftTextColor">@color/blue</color>
+    <color name="titleBarRightTextColor">@color/blue</color>
+    <color name="titleBarDivideLineColor">@color/bg_listview_divider</color>
+    <color name="titleBarTextColor">@color/n_title</color>
+
+    <color name="text_gray2">#ffC3C3C3</color>
+
+
+    <!-- 底部导航字体颜色 -->
+    <color name="actionbar_txtcolor_gray">#aaaaaa</color>
+    <color name="actionbar_txtcolor_blue">#00bfff</color>
+    <color name="ge_line">#4a4a4a</color>
+    <color name="bg_listview_divider">#eaeae9</color>
+    <color name="blue">#ff0f81d9</color>
+    <drawable name="darkgray">#808080FF</drawable>
+    <drawable name="white">#FFFFFFFF</drawable>
+    <drawable name="silver">#00ffffff</drawable> <!-- 透明色 -->
+
+
+    <color name="guide_bg">#343840</color>
+    <color name="title_blue">#0096E5</color>
+    <color name="title_background">#333333</color>
+    <color name="title_graybg">#848484</color>
+    <color name="title_black">#bb000000</color>
+    <color name="rg_background">#EAEAEA</color>
+    <color name="bg_popupwindow">#F9FAF9</color>
+    <color name="bg_popupwindow_cancel">#C9CAC9</color>
+    <color name="bg_chat_color">#F5F5F5</color>
+    <color name="gary_bg_ios">#FFEEEEEF</color>
+    <color name="bg_weiba_follow">#252525</color>
+    <color name="chat_edit_bg">#f9f9f9</color>
+    <color name="gray">#999999</color>
+    <color name="weibo_app_bar_text">#dddddd</color>
+    <color name="main_fant_color">#E1333333</color>
+    <color name="main_link_color">#334466</color>
+    <color name="color_default_txt">#c0c0c0</color>
+
+    <!-- 礼物中心颜色 -->
+    <color name="bg_gift_name">#4a5668</color>
+    <color name="bg_gift_score">#f55145</color>
+    <color name="bg_gift_score_txt">#585858</color>
+    <color name="bg_gift_surplus">#828994</color>
+    <color name="bg_gift_exchange_rule">#606060</color>
+    <color name="bg_my_score_blue">#169fe8</color>
+    <color name="bg_transfer">#ffc37d</color>
+    <color name="bg_my_score_view">#1a74a3</color>
+    <color name="bg_my_score_deep_blue">#148fd0</color>
+    <color name="bg_my_score_source_score">#169fe8</color>
+    <color name="bg_my_score_source">#00B500</color>
+    <color name="bg_task_detail">#909399</color>
+
+    <!-- #############新版本样式区域########## ningtn -->
+    <!-- 新首页边距等变量   by ningtn start -->
+    <color name="hp_fish_color">#777777</color>
+    <color name="hp_module_color">#767676</color>
+    <color name="hp_content_color">#9A9A9A</color>
+    <!-- 新首页边距等变量   by ningtn end -->
+    <!-- 正在建设页面 start -->
+    <color name="expect_title_font_color">#999999</color>
+    <color name="expect_content_font_color">#4d4d4d</color>
+    <!-- 正在建设页面 end -->
+
+    <!-- 提醒登录页面 start -->
+    <color name="guest_content_font_color">#4d4d4d</color>
+    <color name="guest_btn_font_color">#00bfff</color>
+    <!-- 提醒登录页面 end -->
+
+    <!-- 小鱼 start -->
+    <color name="fish_title_bg">#000000</color>
+    <color name="fish_send_dotted">#fdde73</color>
+    <color name="fish_send_content_color">#003366</color>
+    <color name="fish_click_content_color">#f2be45</color>
+    <color name="fish_nemo_dialog_bg">#c2e5f0</color>
+    <color name="fish_share_bg_click">#e5e5e5</color>
+    <!-- 小鱼 end -->
+
+    <!-- 新版首页 start -->
+    <color name="hp_title">#00bfff</color>
+    <color name="hp_teacher_name_color">#4d4d4d</color>
+    <color name="hp_teacher_group_color">#999999</color>
+    <color name="hp_topic_color">#ffffff</color>
+    <color name="hp_title_blue">#00bfff</color>
+    <color name="hp_title_txt_color">#666666</color>
+    <!-- 新版首页 end -->
+
+    <!-- 视频页面 start -->
+    <color name="video_lesson_name_color">#4d4d4d</color>
+    <color name="video_class_name_color">#999999</color>
+    <!-- 视频页面 end -->
+
+    <!-- 新版UI start -->
+    <color name="cst_title_color">#4d4d4d</color>
+    <color name="cst_mentor_name_color">#4d4d4d</color>
+    <color name="cst_mentor_fans_color">#999999</color>
+    <color name="cst_mentor_fans_num_color">#f2880c</color>
+    <!-- 新版UI end -->
+    <!-- 登录页 start -->
+    <color name="login_title_color">#4d4d4d</color>
+    <color name="login_title_bar">#cccccc</color>
+    <color name="login_hint_color">#999999</color>
+    <color name="login_btn_background_color">#00bfff</color>
+    <color name="checknum_btn_background_color">#0096e5</color>
+    <color name="login_btn_unable_background_color">#999999</color>
+    <!-- 登录页 end -->
+    <!-- 电话咨询 -->
+    <color name="cst_tel_info_bg">#6bbefd</color>
+    <color name="cst_tel_info_txt_color">#808080</color>
+    <!-- 一些新的系统通用 -->
+    <color name="new_red_remind">#ed2323</color>
+    <color name="new_nlp_blue">#00bfff</color>
+    <color name="new_nlp_title_color">#4d4d4d</color>
+    <color name="new_nlp_time_color">#989898</color>
+    <color name="new_hint_color">#999999</color>
+    <color name="new_bar_color">#cccccc</color>
+    <color name="new_bar_ver_color">#cbcbcb</color>
+    <color name="new_hp_font_white">#d3d3d3</color>
+    <color name="new_nlp_num_color">#808080</color>
+    <color name="new_nlp_orange">#ff9900</color>
+    <color name="circle_cate_alpha_bg">#44848484</color>
+    <color name="frag_find_details_text">#cccccc</color>
+    <!--新增颜色 by ningtn-->
+    <color name="n_title">#4d4d4d</color>
+    <color name="n_content">#999999</color>
+    <color name="n_back">#f3f3f3</color>
+    <color name="n_red">#ff3030</color>
+    <color name="n_gray">#cccccc</color>
+    <color name="n_cst_fans">#F2880C</color>
+    <color name="n_black">#000000</color>
+    <color name="n_video_color">#00bfff</color>
+    <color name="n_orange">#ff9900</color>
+    <color name="n_text_bg">#808080</color>
+</resources>

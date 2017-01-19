@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_ios">
+
+    <RelativeLayout
+        android:id="@+id/rl_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_avatar_left"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/default_user" />
+
+        <LinearLayout
+            android:id="@+id/ll_contnt_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_between_size_5"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tv_avatar_left"
+            android:background="@mipmap/send_msg_1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="14dp">
+                <!--消息内容-->
+                <TextView
+                    android:id="@+id/tv_time_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="8:23"
+                    android:textColor="@color/n_content"
+                    android:textSize="@dimen/dimen_size_10" />
+
+                <TextView
+                    android:id="@+id/tv_content_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left|top"
+                    android:maxLines="5"
+                    android:minLines="1"
+                    android:paddingTop="2dp"
+                    android:text="How are you?"
+                    android:textColor="@color/n_title"
+                    android:textSize="@dimen/dimen_size_14" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:id="@+id/tv_avatar_right"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@mipmap/default_user"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/space_between_size_15"
+            android:layout_marginTop="10dp"/>
+        <LinearLayout
+            android:id="@+id/ll_contnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_avatar_right"
+            android:layout_marginLeft="@dimen/space_between_size_5"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/space_between_size_5"
+            android:background="@mipmap/send_msg_1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="14dp">
+                <!--消息内容-->
+                <TextView
+                    android:id="@+id/tv_time_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="8:25"
+                    android:textColor="@color/n_content"
+                    android:textSize="@dimen/dimen_size_10" />
+                <TextView
+                    android:id="@+id/tv_content_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingTop="2dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left|top"
+                    android:maxLines="5"
+                    android:minLines="1"
+                    android:text="How are you?"
+                    android:textColor="@color/n_title"
+                    android:textSize="@dimen/dimen_size_14"/>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>
